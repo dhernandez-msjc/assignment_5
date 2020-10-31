@@ -3,11 +3,13 @@
 // October 29, 2020
 // csis 123a
 
-
 #include <cstdlib>
 #include <iostream>
 #include <string>
 using namespace std;
+
+// TODO: please space things out by blocks of code
+// TODO: prototype at top, definitions at the bottom
 template<class T>
 void display(T vals[], int size) {
 
@@ -16,6 +18,7 @@ void display(T vals[], int size) {
   }
   cout << "\n";
 }
+
 int main(int argc, char** argv) {
 
   int numbers[10] = {100, 98, 95, 101, 68, 35, 103, 95, 77, 120};
